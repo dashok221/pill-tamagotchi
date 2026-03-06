@@ -161,8 +161,8 @@ export function useBlockchain() {
             signer: wc.signer ?? null,
             mldsaSigner: null,
             refundTo: wc.walletAddress,
-            maximumAllowedSatToSpend: 100000n,
-            feeRate: 10,
+            maximumAllowedSatToSpend: 50000n,
+            feeRate: 1,
             network: NETWORK,
         });
 
