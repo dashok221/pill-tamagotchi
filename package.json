@@ -1,0 +1,34 @@
+{
+  "name": "pill-tamagotchi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PILL Tamagotchi — Feed & care for your Bitcoin L1 pet with $PILL tokens on OP_NET",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@btc-vision/bitcoin": "rc",
+    "@btc-vision/transaction": "rc",
+    "@btc-vision/walletconnect": "latest",
+    "opnet": "rc",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "crypto-browserify": "latest",
+    "stream-browserify": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vite-plugin-node-polyfills": "latest"
+  },
+  "overrides": {
+    "@noble/hashes": "2.0.1"
+  }
+}
